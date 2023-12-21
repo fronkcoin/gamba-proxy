@@ -1,0 +1,20 @@
+{
+  "name": "gamba-proxy",
+  "module": "/api/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "vercel": "^33.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
